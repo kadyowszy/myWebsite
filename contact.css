@@ -1,0 +1,158 @@
+@font-face {
+    font-family: Integral CF;
+    src: url(integral-cf-heavy.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: League Spartan;
+    src: url(LeagueSpartan-VariableFont_wght.ttf);
+}
+
+@font-face {
+    font-family: FT Frame Semi;
+    src: url(fonts/FT\ Frame/FTFrame-NormalRegular.otf);
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: FT Frame bol;
+    src: url(fonts/FT\ Frame/FTFrame-NormalSemiBold.otf);
+    font-weight: bold;
+}
+
+@font-face {
+    font-family: FT Frame Reg;
+    src: url(fonts/FT\ Frame/FTFrame-NormalThin.otf);
+}
+
+body {
+    margin: 0;
+}
+
+header {
+    background-color: #242424;
+    color: white;
+    padding: 10px;
+    padding-bottom: 20px; 
+    text-align: center;
+    font-family: Integral CF, sans-serif;
+    font-size: 30px;
+    line-height: 1;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #3f3f3f;
+    padding: 10px;
+    width: 98.93vw;
+    gap: 10px;
+    font-family: League Spartan, sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+}
+
+nav a {
+    color: #ffffff;
+    text-decoration: none;
+    padding: 15px 20px;
+    padding-top: 17px;
+    border-radius: 5px;
+    transition: background 0.3s, transform 0.3s;
+}
+
+nav a:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    transform: scale(1.1);
+    transition: transform 0.3s, background 0.3s;
+}
+
+nav a:nth-child(3) {
+    background-color: #31a3d8;
+    color: #ffffff;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    padding: 32.5px;
+    gap: 20px;
+}
+  
+#head {
+    font-size: 2em;
+    color: #333;
+    font-family: FT Frame bol, sans-serif;
+    text-align: justify;
+    text-justify: auto;
+}
+  
+#info {
+    font-size: 22px;
+    line-height: 1.6;
+    color: #000000;
+    font-family: FT Frame Reg, sans-serif;
+}
+  
+h2 {
+    font-size: 1.5em;
+    margin-bottom: 15px;
+    font-family: FT Frame, sans-serif;
+}
+
+.contactInfo {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    max-width: 800px; 
+    margin: auto;
+    padding: 40px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding-bottom: 78px;
+    margin-top: 63.5px;
+    margin-bottom: 63.5px;
+}
+
+.contacts {
+    display: flex;
+    flex-direction: row;
+}
+
+.firstCol {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-right: 20px;
+}
+
+.secondCol {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    padding-left: 20px;
+}
+
+span {
+    font-size: 23px;
+    font-family: FT Frame Semi, sans-serif;
+}
+
+a {
+    color: #31a3d8;
+    text-decoration: none;
+}
+
+footer {
+    background-color: #3f3f3f;
+    color: #fff;
+    text-align: center;
+    padding: 20px 0;
+    font-family: sans-serif;
+    font-size: 20px;
+    font-family: FT Frame Reg, sans-serif;
+}
